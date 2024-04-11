@@ -9,6 +9,7 @@ h2 {
 form {
   display: flex;
   text-align: center;
+  flex-direction: row;
 }
 legend {
   font-weight: bold;
@@ -31,4 +32,9 @@ footer {
   text-align: center;
   padding: 35px 0px;
   background-color: whitesmoke;
+}
+@media only screen and (max-width: 768px) {
+  form {
+   flex-direction: column;
+  }
 }
